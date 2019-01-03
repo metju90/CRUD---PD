@@ -1,0 +1,56 @@
+.confirm-dialog {
+  width: 410px;
+  margin: 20px auto 60px;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.confirm-dialog h2 {
+  margin: 20px auto 10px;
+}
+
+.confirm-dialog strong {
+  margin-left: 10px;
+}
+
+.confirm-cta {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+.confirm-dialog .content {
+  width: 200px;
+  margin: 0 auto 20px;
+  text-align: left;
+}
+
+.confirm-dialog .field {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm-dialog .field:last-child {
+  border-bottom: none;
+}
+
+.next-cta {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.white-overlay {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: wait;
+}
